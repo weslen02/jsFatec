@@ -1,0 +1,17 @@
+.header {
+    display: inline;
+    flex-wrap: nowrap;
+}
+
+header h1.fat {
+    color: red;
+    text-transform: uppercase;
+}
+
+.flix {
+    text-transform: uppercase
+}
+
+.flex-meio {
+    display: inline
+}
