@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>02 - 03 - 06 - 08 - 10</title>
+</head>
+
+<body>
+
+    <script>
+       const ex02 = (valueA, valueB) => {
+
+            let sum = valueA + valueB;
+
+            let subt = valueA - valueB;
+
+            let mult = valueA * valueB;
+
+            let divs = valueA / valueB;
+
+
+
+            console.log('Soma: ' + sum);    
+
+            console.log('Subtração: ' + subt);    
+
+            console.log('Multipicação: ' + mult);
+
+            console.log('Divisão: ' + divs);
+
+            }
+
+
+
+
+
+            const ex03 = (valueA, valueB, valueC) => {
+
+            let maior = Math.max(valueA, valueB, valueC)
+
+            console.log(maior)
+
+            }
+
+
+
+            const ex06 = (gasolina, alcool) => {
+
+            dif = gasolina * 0.7
+
+            if (dif >= alcool) {
+
+                console.log('Pela diferença dos valores É MAIS vantajoso abastecer com álcool.');
+
+            } else {        
+
+                console.log('Pela diferença dos valores NÃO é vantajoso abastecer com álcool.');
+
+            }
+
+            }
+
+
+
+            const ex08 = (celsius) => {
+
+            let temperatura = celsius *1.8 + 32;
+
+            console.log(temperatura);
+
+            }
+
+
+
+            const ex10 = (year) => {
+
+            if(((year % 100 !== 0) || (year % 400 === 0)) && (year % 4 === 0)) {
+
+                    console.log('O ano ' + year + ' é bissexto.');
+
+                } else {
+
+                    console.log('O ano ' + year + ' não é bissexto.');
+
+                }
+
+
+
+            }
+
+    </script>
+</body>
+
+</html>
